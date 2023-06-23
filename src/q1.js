@@ -10,23 +10,38 @@
 */
 
 function swap(x, y){
-    // Task 1: def swap_values(x, y):
-    if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
-        print("x and y must be numeric.")
-        return -1
+    // Task 1: 
+    function swap(x, y) {
+        if (typeof x !== "number" || typeof y !== "number") {
+          return -1;
+        }
+      
+        console.log("Before swapping: x =", x, "y =", y);
+      
+        x = x + y;
+        y = x - y;
+        x = x - y;
+      
+        console.log("After swapping: x =", x, "y =", y);
+      }
+      
+// Task 2: 
+// Invoking the swap function
+swap(5, 10);
+      
 
-    x = x + y
-    y = x - y
-    x = x - y
 
-    print("Swapped values: x =", x, "y =", y)
-    return x, y here
-}
 
-// Task 2: Add cod
-# Testing the function
-x = 5
-y = 10
-swap(x, y)e here
 
-module.exports = swap;
+
+
+
+
+
+
+
+
+
+
+
+

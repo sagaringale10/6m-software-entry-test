@@ -10,13 +10,39 @@
 */
 
 
-// Task 1: Add code here
+// Task 1: // 
+let patientNames = []; // Empty array to store patient names
+
+
+    // Task 2: 
+    // Adding patient names to the array
+patientNames.push("John");
+patientNames.push("Mary");
+patientNames.push("Mark");
+
+// Accessing patient names from the array
+console.log(patientNames[0]); // Output: "John"
+console.log(patientNames[1]); // Output: "Mary"
+console.log(patientNames[2]); // Output: "Mark"
 
 function addPatient(patientName){
-    // Task 2: Add code here
-}
+      }
+      
+      
+    
 
 // Task 3: Add code here
+
+let patientNames = ["John", "Mary", "Mark"]; // Array with patient names
+
+function listPatient() {
+  for (let i = 0; i < patientNames.length; i++) {
+    console.log(patientNames[i]);
+  }
+}
+
+// Calling the listPatient() function
+listPatient();
 
 
 addPatient("John");

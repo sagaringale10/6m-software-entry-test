@@ -6,6 +6,8 @@
 */
 
 // Task 1: Add code here
+const external = require('./external.js');
+
 
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
