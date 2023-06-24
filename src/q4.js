@@ -36,5 +36,5 @@ class Child extends Parent {
 }
 
 const c = new Child();
-c.addNewAbility("Dancing");
+c.addNewAbilities("Dancing");
 c.showAbilities(); // This function should print "Parenting", "Role modeling" and "Dancing".

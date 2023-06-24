@@ -32,7 +32,7 @@ function addPatient(patientName){
     
 
 // Task 3: Add code here
-
+listPatient()
 let patientNames = ["John", "Mary", "Mark"]; // Array with patient names
 
 function listPatient() {

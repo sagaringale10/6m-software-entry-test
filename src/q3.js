@@ -16,9 +16,7 @@ dog.breed = "Poodle"; // Adding the new property "breed" with the value "Poodle
 
 
 // Task 2: Add code here
-const dog = {
-    petName: "Bobby"
- };
+
 
 for (let key in dog) {
     console.log(key);
